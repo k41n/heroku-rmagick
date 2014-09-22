@@ -1,0 +1,3 @@
+rvm use 2.1.2@herokumagick
+export AWS_KEY=AKIAJ5FCQVLZQ2G2VCFQ
+export AWS_SECRET=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

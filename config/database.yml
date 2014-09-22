@@ -1,0 +1,18 @@
+default: &default
+
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  pool: 5
+
+development:
+  <<: *default
+  database: herokumagick_development
+
+test:
+  <<: *default
+  database: herokumagick_test
+
+production:
+  <<: *default
+  database: herokumagick_prod
